@@ -2,6 +2,8 @@
 
 one:
   message: MyString
+  author: MyString
 
 two:
   message: MyString
+  author: MyString
