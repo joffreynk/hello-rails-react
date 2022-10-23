@@ -26,9 +26,9 @@ export default function  Quote (){
     return <div>Loading...</div>;
   } else {
     return (
-      <div>
-          <blockquote>{quote.message}</blockquote>
-          <p>by: {quote.author}</p>
+      <div className="border rounded-4 p-4">
+          <q className="text-dark fs-2 text-muted  mb-3">{quote.message}</q>
+          <p className="text-secondary fs-3">by: <span className="fst-italic">{quote.author}</span> </p>
       </div>
     );
   }

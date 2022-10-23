@@ -5,8 +5,8 @@ import Quote from './components/greetings'
 
 function App() {
   return (
-    <div>
-      <h1>Today's quote!</h1>
+    <div className="container">
+      <h1 className='h1 text-center mb-5 mt-3 text-decoration-underline'>Today's quote!</h1>
       <Quote />
     </div>
   );
