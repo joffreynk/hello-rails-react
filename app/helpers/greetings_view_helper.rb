@@ -1,3 +1,2 @@
 module GreetingsViewHelper
-
 end

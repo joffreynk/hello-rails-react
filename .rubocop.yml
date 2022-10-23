@@ -1,14 +1,17 @@
+inherit_from: .rubocop_todo.yml
+
 AllCops:
   NewCops: enable
   Exclude:
     - "Guardfile"
     - "Rakefile"
     - "node_modules/**/*"
+    - "db/seeds.rb"
 
   DisplayCopNames: true
 
 Layout/LineLength:
-  Max: 120
+  Max: 248
 Metrics/MethodLength:
   Max: 20
 Metrics/AbcSize:

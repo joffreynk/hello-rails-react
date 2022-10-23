@@ -1,4 +1,3 @@
 class GreetingsViewController < ApplicationController
-  def index
-  end
+  def index; end
 end

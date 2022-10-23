@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  get 'greetings_api', to: "greetings_api#index"
-  root "greetings_view#index"
+  get 'greetings_api', to: 'greetings_api#index'
+  root 'greetings_view#index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")

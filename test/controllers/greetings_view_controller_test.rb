@@ -1,7 +1,7 @@
-require "test_helper"
+require 'test_helper'
 
 class GreetingsViewControllerTest < ActionDispatch::IntegrationTest
-  test "should get index" do
+  test 'should get index' do
     get greetings_view_index_url
     assert_response :success
   end
